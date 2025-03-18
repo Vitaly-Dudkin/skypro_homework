@@ -81,8 +81,6 @@ a {
 
 }
 
-
-
 .footer {
     &__title {
         font-weight: 500;
@@ -97,8 +95,7 @@ a {
         font-size: 14px;
         line-height: 17px;
         color: #888888;
-        text-decoration: none;
-        
+        text-decoration: none; 
     }
 
     &__link:hover {
