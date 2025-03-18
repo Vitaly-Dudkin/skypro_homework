@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> 
+    <header class="header"> 
         <a href="index.html"><img src="img/logo.svg" alt="логотип"></a>
         <input type="text">
         <nav class="menu">
@@ -27,32 +27,44 @@
         <p class="text">Наша мебель — ваше отражение</p>
         <a href="catalog.html" class="link__catalog">Перейти в каталог</a>
     </section>
-    <section>
+    <section class="product_box">
         <h2 class="heading">Специальные предложения</h2>
-        <img src="img/product1.jpg" alt="желтое кресло">
-        <h3 class="product__name">Кресло VILORA</h3>
-        <p class="product__text">«Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань</p>
-        <p class="product__discont">21 000</p>
-        <p class="product_price">28 000</p>
+        <section class="product_content"> 
+            <section class="product">
+                <img src="img/product1.jpg" alt="желтое кресло">
+                <h3 class="product__name">Кресло VILORA</h3>
+                <p class="product__text">«Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань</p>
+                <p class="product__discont">21 000</p>
+                <p class="product__price">28 000</p>
+            </section>   
+        </section>
     </section>
-    <footer>
-        <h4 class="footer__title">Меню</h4>
-        <nav>
-            <a href="index.html" class="footer__link">Главная</a>
-            <a href="catalog.html" class="footer__link">Каталог</a>
-            <a href="#" class="footer__link">Корзина</a>
-        </nav>
-        <h4 class="footer__title">Контакты</h4>
-        <a href="#" class="footer__link">+7 908 800 80 80</a>
-        <a href="#" class="footer__link">help@interier.com</a>
-        <img src="img/vk.svg" alt="логотип вконтакте">
-        <img src="img/telegram.svg" alt="логотип телеграма">
-        <img src="img/dzen.svg" alt="логотип яндекс_дзен">
-        <form action="#">
+    <footer class="footer">
+        <section class="footer__content">
+            <section class="footer__info">
+                <h4 class="footer__title">Меню</h4>
+                <nav class="footer__item">
+                    <a href="index.html" class="footer__link">Главная</a>
+                    <a href="catalog.html" class="footer__link">Каталог</a>
+                    <a href="#" class="footer__link">Корзина</a>
+                </nav>
+                <section class="footer__item">
+                    <h4 class="footer__title">Контакты</h4>
+                    <a href="#" class="footer__link">+7 908 800 80 80</a>
+                    <a href="#" class="footer__link">help@interier.com</a>
+                    <section class="footer__icons">
+                        <img src="img/vk.svg" alt="логотип вконтакте">
+                        <img src="img/telegram.svg" alt="логотип телеграма">
+                        <img src="img/dzen.svg" alt="логотип яндекс_дзен">
+                    </section>
+                </section>
+            </section>
+        <form action="#" class="footer__form">
             <p class="footer__text">Получайте наши новости и обновления</p>
             <input type="email" class="footer__email">
             <button type="submit" class="footer__button">Подписаться</button>
         </form>
+    </section>
     </footer>
 </body>
 </html>
