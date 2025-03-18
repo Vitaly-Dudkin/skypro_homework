@@ -7,32 +7,69 @@ a {
   text-decoration: none;
 }
 
-.header {
-  height: 76px;
+.top {
+  height: 735px;
+  background-image: url(img/backtop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
-.menu__link {
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.title {
+.top__title {
   font-weight: 600;
   font-size: 64px;
   line-height: 70px;
   margin-top: 64px;
   margin-bottom: 16px;
+  color: #FFFFFF;
+  width: 792px;
 }
-
-.text {
+.top__text {
+  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  padding-bottom: 16px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.header {
+  height: 76px;
+}
+.header__input {
+  width: 288px;
+  height: 41px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+.header__input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.header__input::placeholder {
+  color: #FFFFFF;
+}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
 .link__catalog {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 .heading {
@@ -41,11 +78,6 @@ a {
   line-height: 59px;
   color: #000000;
   margin-bottom: 32px;
-}
-
-.link__catalog {
-  color: #888888;
-  text-decoration: none;
 }
 
 .product__name {
@@ -61,20 +93,41 @@ a {
   color: #888888;
   padding-bottom: 12px;
 }
-.product__discont {
-  font-weight: 500;
+.product__price {
+  color: rgb(5, 5, 5);
   font-size: 24px;
+  font-weight: 500;
   line-height: 29px;
-  color: #050505;
+  text-align: left;
 }
-.product_price {
+.product__discont {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   text-decoration-line: line-through;
   color: #888888;
 }
+.product__content {
+  display: flex;
+  flex-direction: column;
+}
+.product__img {
+  width: 379px;
+  height: 250px;
+}
 
+.link {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.footer {
+  margin-top: 64px;
+}
 .footer__title {
   font-weight: 500;
   font-size: 24px;
