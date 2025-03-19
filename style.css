@@ -85,6 +85,10 @@ a {
   margin-top: 64px;
 }
 
+.product-box {
+  margin-top: 64px;
+}
+
 .product {
   width: 378px;
   display: flex;
