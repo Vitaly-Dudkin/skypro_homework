@@ -78,8 +78,16 @@ a {
   line-height: 59px;
   color: #000000;
   margin-bottom: 32px;
+  margin-top: 42px;
 }
 
+.heading__catalog {
+  margin-top: 64px;
+}
+
+.product__content {
+  margin-bottom: 32px;
+}
 .product__name {
   font-weight: 500;
   font-size: 24px;
@@ -127,6 +135,7 @@ a {
 
 .footer {
   margin-top: 64px;
+  background-color: rgb(247, 246, 246);
 }
 .footer__title {
   font-weight: 500;

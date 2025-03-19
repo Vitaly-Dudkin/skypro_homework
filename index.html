@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture store</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -37,31 +34,31 @@
     <section class="product_box">
         <h2 class="heading">Специальные предложения</h2>
         <section class="product_content"> 
-            <section class="product">
+            <article class="product">
                 <img src="img/Voda.png" alt="желтое кресло">
                 <h3 class="product__name">Люстра VODA</h3>
                 <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
                 <p class="product__discont">45 000 руб.</p>
                 <p class="product__price">67 000 руб</p>
-            </section>
-            <section class="product">
+            </article>
+            <article class="product">
                 <img src="img/Ronald.png" alt="Диван">
                 <h3 class="product__name">Диван RONALD</h3>
                 <p class="product__text">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
                 <p class="product__discont">156 000 руб.</p>
                 <p class="product__price">198 000 руб.</p>
-            </section>   
-            <section class="product">
+            </article>   
+            <article class="product">
                 <img src="img/Vent.png" alt="Комод">
                 <h3 class="product__name">Комод VENT</h3>
                 <p class="product__text">Европейский дуб - отличается особой прочностью и стабильностью.</p>
                 <p class="product__price">34 000 руб.</p>
                 <p class="product__discont">45 000 руб.</p>
-            </section>   
+            </article>   
         </section>
     </section>
     <div class="product_box center">
-        <h2 class="heading">Каталог товаров</h2>
+        <h2 class="heading heading__catalog">Каталог товаров</h2>
         <div class="product">
             <div class="product__content">
                 <img class="product__img" src="img/Tatran.png" alt="Кровать">
@@ -102,15 +99,18 @@
             </div>
         </div>
         <a href="catalog.html" class="link">Перейти в каталог</a>
+    </div>
     <footer class="footer">
         <section class="footer__content">
             <a href="index.html"><img src="img/logo__footer.svg" alt="логотип"></a>
             <section class="footer__info">
                 <h4 class="footer__title">Меню</h4>
                 <nav class="footer__item">
-                    <a href="index.html" class="footer__link">Главная</a>
-                    <a href="catalog.html" class="footer__link">Каталог</a>
-                    <a href="#" class="footer__link">Корзина</a>
+                    <ul>
+                        <li><a href="index.html" class="footer__link">Главная</a></li>
+                        <li><a href="catalog.html" class="footer__link">Каталог</a></li>
+                        <li><a href="#" class="footer__link">Корзина</a></li>
+                    </ul>
                 </nav>
                 <section class="footer__item">
                     <h4 class="footer__title">Контакты</h4>
