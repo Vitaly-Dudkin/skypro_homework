@@ -95,7 +95,7 @@ a {
   flex-direction: column;
 }
 .product__content {
-  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .product__name {
   font-weight: 500;
