@@ -85,6 +85,11 @@ a {
   margin-top: 64px;
 }
 
+.product {
+  width: 378px;
+  display: flex;
+  flex-direction: column;
+}
 .product__content {
   margin-bottom: 32px;
 }
@@ -114,10 +119,6 @@ a {
   line-height: 29px;
   text-decoration-line: line-through;
   color: #888888;
-}
-.product__content {
-  display: flex;
-  flex-direction: column;
 }
 .product__img {
   width: 379px;
