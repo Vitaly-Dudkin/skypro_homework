@@ -89,7 +89,7 @@ a {
 
 }
 
-.link__catalog{
+.link-catalog{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -113,19 +113,18 @@ a {
     margin-bottom: 64px;
 }
 
+.product-content {
+    margin-top: 32px;
+    column-gap: 32px;
+    row-gap: 56px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .product{
     width: 378px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
-
-    &__content {
-        margin-top: 32px;
-        column-gap: 32px;
-        row-gap: 56px;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     &__name {
         font-weight: 500;
@@ -157,9 +156,6 @@ a {
     }
     
     &__price_sale{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 29px;
         text-decoration-line: line-through;
         color: #888888;
     }
@@ -213,7 +209,6 @@ a {
         font-size: 24px;
         line-height: 29px;
         color: #000000;
-        margin-bottom: 12px;
     }
     
     &__link {
@@ -249,6 +244,7 @@ a {
     }
 
     &__email {
+        font-family: Montserrat;
         background: #FFFFFF;
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
@@ -262,6 +258,7 @@ a {
         line-height: 18px;
         color: #C4C4C4;
         &::placeholder{
+            font-family: Montserrat;
             font-weight: 400px;
             font-size: 12px;
             line-height: 15px;
@@ -280,6 +277,7 @@ a {
         font-size: 15px;
         line-height: 18px;
         color: #000000;
+        font-family: Montserrat;
     }
 }
 
