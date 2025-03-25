@@ -62,12 +62,15 @@ a {
   padding-left: 32px;
   padding-right: 32px;
   box-sizing: border-box;
+  font-family: Montserrat;
 }
 .header__input::-moz-placeholder {
   color: #FFFFFF;
+  font-family: Montserrat;
 }
 .header__input::placeholder {
   color: #FFFFFF;
+  font-family: Montserrat;
 }
 
 .menu__link {
