@@ -244,6 +244,7 @@ a {
     }
 
     &__email {
+        font-family: Montserrat;
         background: #FFFFFF;
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
@@ -257,6 +258,7 @@ a {
         line-height: 18px;
         color: #C4C4C4;
         &::placeholder{
+            font-family: Montserrat;
             font-weight: 400px;
             font-size: 12px;
             line-height: 15px;
@@ -275,6 +277,7 @@ a {
         font-size: 15px;
         line-height: 18px;
         color: #000000;
+        font-family: Montserrat;
     }
 }
 
