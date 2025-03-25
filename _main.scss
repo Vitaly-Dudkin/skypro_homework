@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+
+}
+
 .top {
     height: 735px;
     background-image: url(img/backtop.jpg);
@@ -39,6 +45,11 @@ a {
 
 .header{
     height: 76px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
 
     &__input {
         width: 288px;
@@ -60,10 +71,22 @@ a {
     }
 }
 
-.menu__link {
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
+
+.menu {
+
+    &__link {
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    &__ul {
+        display: flex;
+        gap: 32px;
+        list-style-type: none;
+
+    }
+
 }
 
 .link__catalog{
@@ -85,12 +108,9 @@ a {
     margin-top: 42px;
 }
 
-.heading__catalog {
-    margin-top: 64px;
-}
-
 .product-box {
     margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .product{
@@ -101,6 +121,10 @@ a {
 
     &__content {
         margin-top: 32px;
+        column-gap: 32px;
+        row-gap: 56px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &__name {
@@ -108,7 +132,8 @@ a {
         font-size: 24px;
         line-height: 29px;
         color: #000000;
-        margin-bottom: 8px;
+        margin-bottom: 9px;
+        margin-top: 10px;
     }
     
     &__text {
@@ -116,6 +141,11 @@ a {
         line-height: 17px;
         color: #888888;
         padding-bottom: 12px;
+    }
+
+    &__box-price {
+        display: flex;
+        gap: 32px;
     }
     
     &__price {
@@ -126,17 +156,12 @@ a {
         text-align: left;
     }
     
-    &__discont{
+    &__price_sale{
         font-weight: 500;
         font-size: 24px;
         line-height: 29px;
         text-decoration-line: line-through;
         color: #888888;
-    }
-
-    &__img{
-        width: 379px;
-        height: 250px;
     }
 
 }
@@ -151,8 +176,37 @@ a {
 }
 
 .footer {
-    margin-top: 64px;
+    padding-top: 32px;
+    padding-bottom: 40px;
     background-color: rgb(247, 246, 246);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__content {
+        width: 789px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__info {
+        display: flex;
+        gap: 129px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
 
     &__title {
         font-weight: 500;
@@ -174,6 +228,19 @@ a {
         text-decoration: underline;
     }
 
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
     &__text {
         font-size: 14px;
         line-height: 16px;
@@ -186,10 +253,21 @@ a {
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
         border-radius: 20px;
-        font-weight: normal;
+        width: 275px;
+        height: 46px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 400;
         font-size: 15px;
         line-height: 18px;
         color: #C4C4C4;
+        &::placeholder{
+            font-weight: 400px;
+            font-size: 12px;
+            line-height: 15px;
+            color: rgb(196, 196, 196);
+        }
+
     }
 
     &__button{
