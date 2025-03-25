@@ -107,6 +107,7 @@ a {
 
 .product-content {
   margin-top: 32px;
+  margin-bottom: 39px;
   -moz-column-gap: 32px;
        column-gap: 32px;
   row-gap: 56px;
