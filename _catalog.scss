@@ -1,0 +1,25 @@
+
+.top-catalog {
+    background-image: url(img/top_catalog.jpg);
+    height: 400px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    position: relative;
+
+    &__menu{
+        background: none;
+        border: 1px solid rgb(196, 196, 196);
+        border-radius: 20px;
+        width: 182px;
+        height: 40px;
+        padding-left: 23px;
+        padding-right: 12px;
+        
+    }
+}
