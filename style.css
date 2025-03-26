@@ -23,6 +23,10 @@ a {
   background-position: center;
   background-size: cover;
 }
+.top__catalog {
+  background-image: url(img/top_catalog.jpg);
+  height: 400px;
+}
 .top__title {
   font-weight: 600;
   font-size: 64px;
@@ -30,6 +34,13 @@ a {
   margin-top: 64px;
   color: #FFFFFF;
   width: 792px;
+}
+.top__title_catalog {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: left;
+  margin-top: 127px;
 }
 .top__text {
   font-weight: 400;
