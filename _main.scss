@@ -29,7 +29,6 @@ a {
         font-size: 64px;
         line-height: 70px;
         margin-top: 64px;
-        margin-bottom: 16px; 
         color: #FFFFFF;
         width: 792px;
     }
@@ -107,7 +106,49 @@ a {
     line-height: 59px;
     color: #000000;
     margin-bottom: 32px;
-    margin-top: 42px;
+}
+
+.for-box{
+    padding-top: 64px;
+}
+
+.for {
+    margin-top: 32px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+
+    &__item {
+        height: 415px;
+        grid-column: span 4;
+        color: rgb(255, 255, 255);
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item_big {
+        grid-column: span 6;
+    }
+
+    &__item_1 {
+        background-image: url(img/for-1.jpeg);
+    }
+    &__item_2 {
+        background-image: url(img/for-2.jpeg);
+    }
+    &__item_3 {
+        background-image: url(img/for-3.jpeg);
+    }
+    &__item_4 {
+        background-image: url(img/for-4.jpeg);
+    }
+    &__item_5 {
+        background-image: url(img/for-5.jpeg);
+    }
 }
 
 .product-box {
