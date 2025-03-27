@@ -67,15 +67,15 @@ a {
   color: #FFFFFF;
   padding-left: 32px;
   padding-right: 32px;
-  font-family: Montserrat;
+  font-family: inherit;
 }
 .header__input::-moz-placeholder {
   color: #FFFFFF;
-  font-family: Montserrat;
+  font-family: inherit;
 }
 .header__input::placeholder {
   color: #FFFFFF;
-  font-family: Montserrat;
+  font-family: inherit;
 }
 
 .menu__link {
@@ -267,7 +267,7 @@ a {
   color: #000000;
 }
 .footer__email {
-  font-family: Montserrat;
+  font-family: inherit;
   background: #FFFFFF;
   border: 1px solid #C4C4C4;
   box-sizing: border-box;
@@ -282,14 +282,14 @@ a {
   color: #C4C4C4;
 }
 .footer__email::-moz-placeholder {
-  font-family: Montserrat;
+  font-family: inherit;
   font-weight: 400px;
   font-size: 12px;
   line-height: 15px;
   color: rgb(196, 196, 196);
 }
 .footer__email::placeholder {
-  font-family: Montserrat;
+  font-family: inherit;
   font-weight: 400px;
   font-size: 12px;
   line-height: 15px;
