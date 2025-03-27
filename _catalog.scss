@@ -16,10 +16,22 @@
         background: none;
         border: 1px solid rgb(196, 196, 196);
         border-radius: 20px;
-        width: 182px;
-        height: 40px;
+        color: rgb(0, 0, 0);
+        line-height: 20px;
+        font-size: 16px;
         padding-left: 23px;
-        padding-right: 12px;
+        &_filtr {
+            font-weight: 500;
+            width: 182px;
+            height: 40px;
+            padding-right: 12px;
+        }
+        &_sort {
+            font-weight: 400;
+            width: 227px;
+            height: 40px;
+            padding-right: 14px;
+        }
         
     }
 }
