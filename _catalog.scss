@@ -7,6 +7,7 @@
 .catalog {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .select {
@@ -39,7 +40,7 @@
 }
 
 .menu-catalog{
-    
+
     &_link {
             color: rgb(0, 0, 0);
             font-size: 16px;
