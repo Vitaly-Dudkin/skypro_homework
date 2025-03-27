@@ -37,3 +37,14 @@
     
     }
 }
+
+.menu-catalog{
+    
+    &_link {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+        }
+    }

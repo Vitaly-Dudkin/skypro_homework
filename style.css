@@ -342,4 +342,12 @@ a {
   width: 227px;
   height: 40px;
   padding-right: 14px;
+}
+
+.menu-catalog_link {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
