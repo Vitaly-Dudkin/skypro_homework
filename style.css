@@ -322,6 +322,8 @@ a {
 
 .select {
   position: relative;
+  display: flex;
+  gap: 10px;
 }
 .select__menu {
   background: none;

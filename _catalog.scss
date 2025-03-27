@@ -12,6 +12,8 @@
 
 .select {
     position: relative;
+    display: flex;
+    gap: 10px;
 
     &__menu{
         background: none;
