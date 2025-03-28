@@ -1,0 +1,14 @@
+.top-cart {
+    background-image: url(img/top_Cart.png);
+    height: 400px;
+}
+
+.top{
+    &__title_cart{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 70px;
+        text-align: left;
+        margin-top: 127px;
+    }
+}

@@ -378,4 +378,17 @@ a {
   z-index: 1;
   margin-top: -3px;
   background-image: url(img/strelka.svg);
+}
+
+.top-cart {
+  background-image: url(img/top_Cart.png);
+  height: 400px;
+}
+
+.top__title_cart {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: left;
+  margin-top: 127px;
 }/*# sourceMappingURL=style.css.map */
