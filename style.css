@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -320,10 +321,24 @@ a {
   align-items: center;
 }
 
+.menu-catalog_link {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
 .select {
   position: relative;
   display: flex;
   gap: 10px;
+  background: none; /* убираем фон */
+  -webkit-appearance: none; /* Chrome */
+  -moz-appearance: none;
+       appearance: none; /* убираем дефолнтные стрелочки */
+  font-family: inherit; /* наследует от родителя */
+  font-size: 1rem;
 }
 .select__menu {
   background: none;
@@ -333,6 +348,9 @@ a {
   line-height: 20px;
   font-size: 16px;
   padding-left: 23px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; /* убираем дефолнтные стрелочки */
 }
 .select__menu_filtr {
   font-weight: 500;
@@ -347,10 +365,17 @@ a {
   padding-right: 14px;
 }
 
-.menu-catalog_link {
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
+.select:after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 1;
+  margin-top: -3px;
+  background-image: url(img/strelka.svg);
 }/*# sourceMappingURL=style.css.map */
