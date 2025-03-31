@@ -270,12 +270,10 @@ a {
         font-size: 14px;
         line-height: 17px;
         color: #888888;
-        text-decoration: none; 
-    }
-
-    &__link:hover {
-        text-decoration: underline;
-    }
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
 
     &__icons {
         display: flex;
