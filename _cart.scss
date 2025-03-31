@@ -1,6 +1,7 @@
 .top-cart {
     background-image: url(img/top_Cart.png);
     height: 400px;
+    margin-bottom: 64px;
 }
 
 .top{
@@ -10,5 +11,28 @@
         line-height: 70px;
         text-align: left;
         margin-top: 127px;
+    }
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+
+    &__form {
+        border-radius: 20px;
+        background: rgb(247, 246, 246);
+    }
+
+    &__name-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__left {
+        display: flex;
     }
 }

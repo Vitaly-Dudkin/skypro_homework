@@ -378,6 +378,7 @@ a {
 .top-cart {
   background-image: url(img/top_Cart.png);
   height: 400px;
+  margin-bottom: 64px;
 }
 
 .top__title_cart {
@@ -386,4 +387,23 @@ a {
   line-height: 70px;
   text-align: left;
   margin-top: 127px;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__form {
+  border-radius: 20px;
+  background: rgb(247, 246, 246);
+}
+.cart__name-box {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__item {
+  display: flex;
+}
+.cart__left {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
