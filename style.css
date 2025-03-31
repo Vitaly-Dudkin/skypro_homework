@@ -351,6 +351,7 @@ a {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none; /* убираем дефолнтные стрелочки */
+  font-size: inherit;
 }
 .select__menu_filtr {
   font-weight: 500;
@@ -360,6 +361,7 @@ a {
   background-image: url(img/strelka.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 22px) center;
+  font-family: inherit;
 }
 .select__menu_sort {
   font-weight: 400;
@@ -369,6 +371,7 @@ a {
   background-image: url(img/strelka.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 22px) center;
+  font-family: inherit;
 }
 
 .top-cart {
