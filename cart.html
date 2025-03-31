@@ -37,23 +37,51 @@
             </div>
             <div class="cart__item">
                 <div class="cart__left">
-                    <img src="img/Menu.png" alt="">
+                    <img src="img/Menu.png" alt="" class="cart__img">
                     <div class="cart__info">
-                        <h4>Стол MENU</h4>
-                        <p>Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
-                        <p>34 000</p>
+                        <h4 class="cart__product-name">Стол MENU</h4>
+                        <p class="cart__product-text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+                        <div class="product__box-price">
+                            <span class="product__price">68 000 руб.</span>
+                        </div>
                         <div class="cart__link-box">
-                            <a href="">Избранные</a>
-                            <a href="">Удалить</a>
+                            <a class="link cart__link" href="">Избранные</a>
+                            <a class="link cart__link" href="">Удалить</a>
                         </div>
                     </div>
                 </div>
-            <input type="number" value="1" min="1">   
+            <input type="number" value="1" min="1" class="cart__product-number">   
+            </div>
+            <div class="cart__item">
+                <div class="cart__left">
+                    <img src="img/Menu.png" alt="" class="cart__img">
+                    <div class="cart__info">
+                        <h4 class="cart__product">Стол MENU</h4>
+                        <p class="cart__product-text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+                        <div class="product__box-price">
+                            <span class="product__price">68 000 руб.</span>
+                        </div>
+                        <div class="cart__link-box">
+                            <a class="link cart__link" href="">Избранные</a>
+                            <a class="link cart__link" href="">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+            <input type="number" value="1" min="1" placeholder="1" class="cart__product-number">   
             </div>
         </div>
         <div class="cart__form">
-            <h3>Оформление заказа</h3>
+        <h3 class="cart__form-title">Оформление заказа</h3>
+        <div class="cart__form-info">
+            <input type="text" class="cart__info" placeholder="Имя Фамилия">
+            <input type="text" class="cart__info" placeholder="+ 7 904 000 80 80">
+            <input type="text" class="cart__info" placeholder="Адрес доставки">
         </div>
+        <div class="cart__form-result">
+            <h3 class="cart__result">Итого: 128 000 руб.</h3>
+            <a href="#" class="cart__link-button cart__special_button ">Оформить заказ</a>
+        </div>
+    </div>
     </div>
     <section class="product-box center">
         <h2 class="heading">Специальные предложения</h2>
