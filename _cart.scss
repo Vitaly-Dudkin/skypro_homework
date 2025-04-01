@@ -170,6 +170,26 @@
 
     }
 
+    &__button{
+        width: 200px;
+        height: 37px;
+        box-sizing: border-box;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 50px;
+
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+
+    &__box-buttons {
+        display: flex;
+        gap: 7px;
+        margin-top: 18px;
+    }
+
     // &__product-number{
     //     width: 71px;
     //     height: 51px;
