@@ -56,7 +56,6 @@
         border: none;
         background: transparent;
         border: navajowhite;
-        border-bottom: 1px solid #CACDD8;
         &::placeholder {
             color: rgb(0, 0, 0);
             font-family: inherit;
@@ -143,6 +142,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    &__form-buttons {
+        display: flex;
+        gap: 7px;
     }
 
     &__link-button{
