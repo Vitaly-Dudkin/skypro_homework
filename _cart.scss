@@ -96,6 +96,12 @@
         text-align: left;
     }
 
+    &__link {
+        font-size: 14px;
+        line-height: 210%;
+        text-align: center;
+    }
+
     &__link-box {
         display: flex;
         gap: 30px;
