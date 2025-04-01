@@ -24,12 +24,11 @@
     }
 
     &__info{
+        font-family: inherit;
         border: none;
         background: transparent;
-        border: navajowhite;
         &::placeholder {
             color: rgb(0, 0, 0);
-            font-family: inherit;
             font-size: 14px;
             font-weight: 400;
             line-height: 17px;
