@@ -137,6 +137,19 @@
         gap: 7px;
         margin-top: 18px;
     }
+
+    &__product-number {
+        width: 71px;
+        height: 51px;
+        border-radius: 6px;
+        background: rgb(247, 246, 246);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 210%;
+        text-align: center;
+        border: none; 
+    }
 }
 
 .cart__form {
