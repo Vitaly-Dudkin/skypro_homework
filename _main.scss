@@ -33,7 +33,7 @@ a {
         margin-top: 64px;
         margin-bottom: 16px;
         color: $color-text;
-        width: 792px;
+        max-width: 792px;
         
         &_catalog {
             font-size: 64px;
