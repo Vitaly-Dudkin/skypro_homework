@@ -330,6 +330,10 @@ a {
         line-height: 15px;
         color: #000000;
         font-family: inherit;
+        &:hover {
+            background: #000000;
+            color: #FFFFFF;
+        }
     }
 }
 

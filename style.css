@@ -309,6 +309,10 @@ a {
   color: #000000;
   font-family: inherit;
 }
+.footer__button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
 
 .top-catalog {
   background-image: url(img/top_catalog.jpg);
@@ -741,7 +745,7 @@ a {
 }
 .cart__link-button:hover {
   background: #000000;
-  color: white;
+  color: #FFFFFF;
 }
 .cart__button {
   width: 200px;
