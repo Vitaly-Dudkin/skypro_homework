@@ -85,6 +85,9 @@ a {
   line-height: 20px;
   color: #FFFFFF;
 }
+.menu__link:hover {
+  text-decoration: underline;
+}
 .menu__ul {
   display: flex;
   gap: 32px;
