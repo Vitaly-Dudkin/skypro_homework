@@ -100,6 +100,9 @@ a {
   color: #FFFFFF;
   text-decoration: underline;
 }
+.link-catalog:hover {
+  text-decoration: none;
+}
 
 .heading {
   font-weight: 600;
@@ -207,6 +210,10 @@ a {
   text-align: left;
   text-decoration-line: underline;
 }
+.link:hover {
+  text-decoration: none;
+  color: #888888;
+}
 
 .footer {
   padding-top: 32px;
@@ -257,6 +264,7 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 .footer__form {
   display: flex;
@@ -312,6 +320,7 @@ a {
 .footer__button:hover {
   background: #000000;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .top-catalog {
