@@ -273,6 +273,13 @@
         background-position: center;
         border-color: #000;
     }
+
+    &__label_black::before{
+        background-image: url(img/icon-checked-white.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-color: #000;
+    }
 }
 
 .checkbox__input {
