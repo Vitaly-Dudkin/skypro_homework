@@ -97,7 +97,7 @@
 
 .filter-form {
     position: absolute;
-    top: calc(60%);
+    top: calc(100% + 14px);
     right: 0;
     max-height: 548px;
     display: flex;
@@ -115,7 +115,7 @@
         align-items: start;
         flex-wrap: wrap;
         gap: 32px 65px;
-        width: 542px;
+        width: 446px;
         max-height: 548px;
     }
 
@@ -148,6 +148,10 @@
         cursor: pointer;
         font-family: inherit;
         align-self: flex-end;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;;
     }
 }
 
@@ -173,7 +177,7 @@
         content: "";
         width: 14px;
         height: 14px;
-        border: 1px solid #ccc;
+        border: 1px solid rgb(136, 136, 136);;
         border-radius: 50%;
         position: absolute;
         left: 0;
