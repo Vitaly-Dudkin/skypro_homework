@@ -834,6 +834,12 @@ a {
   .footer__logo {
     display: none;
   }
+  .cart__content {
+    grid-column: span 12;
+  }
+  .cart__form {
+    grid-column: span 6;
+  }
 }
 @media (min-width: 768px) and (max-width: 833px) {
   .center {
