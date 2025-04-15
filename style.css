@@ -269,6 +269,12 @@ a {
   gap: 20px;
   cursor: pointer;
 }
+.footer__icons img {
+  transition: filter 1s; /* задержка 1 секунда */
+}
+.footer__icons img:hover {
+  filter: brightness(0); /* цвет иконки станет черным */
+}
 .footer__form {
   display: flex;
   flex-direction: column;
@@ -343,6 +349,9 @@ a {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+.menu-catalog_link:hover {
+  text-decoration: underline;
 }
 
 .select {

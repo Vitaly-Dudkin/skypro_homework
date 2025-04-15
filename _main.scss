@@ -292,6 +292,14 @@ a {
         align-items: center;
         gap: 20px;
         cursor: pointer;
+
+        & img {
+            transition: filter 1s; /* задержка 1 секунда */
+        }
+        
+        & img:hover {
+            filter: brightness(0); /* цвет иконки станет черным */
+        }
     }
 
     &__form {
