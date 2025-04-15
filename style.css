@@ -739,6 +739,10 @@ a {
   border-radius: 20px;
   font-family: inherit;
 }
+.cart__link-button:hover {
+  background: #000000;
+  color: white;
+}
 .cart__button {
   width: 200px;
   height: 37px;
