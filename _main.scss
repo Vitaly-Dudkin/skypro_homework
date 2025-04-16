@@ -186,6 +186,13 @@ a {
     display: flex;
     flex-direction: column;
 
+    & img{
+        transition: transform 0.3s ease; /* Плавный переход */
+    }
+    & img:hover{
+        transform: scale(1.1); /* Увеличение изображения на 10% */
+    }
+
     &__name {
         font-weight: 500;
         font-size: 24px;

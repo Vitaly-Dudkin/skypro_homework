@@ -175,6 +175,12 @@ a {
   display: flex;
   flex-direction: column;
 }
+.product img {
+  transition: transform 0.3s ease; /* Плавный переход */
+}
+.product img:hover {
+  transform: scale(1.1); /* Увеличение изображения на 10% */
+}
 .product__name {
   font-weight: 500;
   font-size: 24px;
