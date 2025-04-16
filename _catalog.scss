@@ -101,7 +101,7 @@
 .filter-form {
     position: absolute;
     top: calc(100% + 14px);
-    right: 0;
+    left: -365px;
     max-height: 548px;
     display: flex;
     flex-direction: column;
