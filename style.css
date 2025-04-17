@@ -902,4 +902,19 @@ a {
   .product {
     width: 345px;
   }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__input {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .logo__img {
+    width: 99px;
+  }
 }/*# sourceMappingURL=style.css.map */

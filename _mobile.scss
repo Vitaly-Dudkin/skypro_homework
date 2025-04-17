@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        &__input {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+
+        &__img {
+            width: 99px;
+        }
+    }
+}
