@@ -174,6 +174,21 @@ a {
   width: 378px;
   display: flex;
   flex-direction: column;
+  position: relative; /* Для правильного позиционирования изображений */
+}
+.product:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Эффект при наведении */
+}
+.product__images {
+  display: none; /* Скрываем изображения по умолчанию */
+  position: absolute; /* Позволяет разместить изображения в правом верхнем углу */
+  top: 10px; /* Отступ сверху */
+  right: 16px; /* Отступ справа */
+  cursor: pointer;
+}
+.product:hover .product__images {
+  display: flex; /* Показываем изображения при наведении */
+  gap: 21px; /* Промежуток между изображениями */
 }
 .product img {
   transition: transform 0.3s ease; /* Плавный переход */
@@ -199,16 +214,21 @@ a {
   display: flex;
   gap: 32px;
 }
-.product__price {
+.product__price, .cart__product-price {
   color: rgb(5, 5, 5);
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
   text-align: left;
 }
-.product__price_sale {
+.product__price_sale, .cart__price-sale {
   text-decoration-line: line-through;
   color: #888888;
+}
+
+.hover-image {
+  width: 24px; /* Ширина изображений */
+  height: 24px; /* Автоматическая высота для сохранения пропорций */
 }
 
 .link {
@@ -677,6 +697,10 @@ a {
   grid-column: span 8;
 }
 .cart__info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 276px;
   font-family: inherit;
   border: none;
   background: transparent;
@@ -717,12 +741,6 @@ a {
   width: 173px;
   height: 173px;
 }
-.cart__info {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  width: 276px;
-}
 .cart__title {
   color: rgb(0, 0, 0);
   font-size: 24px;
@@ -732,7 +750,7 @@ a {
   padding-top: 42px;
 }
 .cart__product-name {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
@@ -796,7 +814,7 @@ a {
   height: 51px;
   border-radius: 6px;
   background: rgb(247, 246, 246);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 210%;

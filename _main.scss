@@ -185,6 +185,24 @@ a {
     width: 378px;
     display: flex;
     flex-direction: column;
+    position: relative; /* Для правильного позиционирования изображений */
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Эффект при наведении */
+    }
+
+    &__images {
+        display: none; /* Скрываем изображения по умолчанию */
+        position: absolute; /* Позволяет разместить изображения в правом верхнем углу */
+        top: 10px; /* Отступ сверху */
+        right: 16px; /* Отступ справа */
+        cursor: pointer;
+    }
+
+    &:hover &__images {
+        display: flex; /* Показываем изображения при наведении */
+        gap: 21px; /* Промежуток между изображениями */
+    }
 
     & img{
         transition: transform 0.3s ease; /* Плавный переход */
@@ -227,6 +245,11 @@ a {
         color: #888888;
     }
 
+}
+
+.hover-image {
+    width: 24px; /* Ширина изображений */
+    height: 24px; /* Автоматическая высота для сохранения пропорций */
 }
 
 .link{
