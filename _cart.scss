@@ -24,6 +24,10 @@
     }
 
     &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        width: 276px;
         font-family: inherit;
         border: none;
         background: transparent;
@@ -33,6 +37,7 @@
             font-weight: 400;
             line-height: 17px;
         }
+
         &-data {
             border-bottom: 1px solid #CACDD8;
         }
@@ -62,13 +67,6 @@
     &__img {
         width: 173px;
         height: 173px;
-    }
-
-    &__info {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        width: 276px;
     }
 
     &__title  {
