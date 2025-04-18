@@ -93,14 +93,6 @@
         text-align: left;
     }
 
-    &__product-price{
-        @extend .product__price;
-    }
-
-    &__price-sale{
-        @extend .product__price_sale
-    }
-
     &__link {
         font-size: 14px;
         line-height: 210%;
