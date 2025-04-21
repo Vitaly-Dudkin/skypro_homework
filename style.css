@@ -766,6 +766,9 @@ a {
   line-height: 17px;
   text-align: left;
 }
+.cart__product-price {
+  font-weight: 500;
+}
 .cart__link {
   font-size: 14px;
   line-height: 210%;
@@ -982,5 +985,23 @@ a {
   }
   .footer__info {
     gap: 100px;
+  }
+  .cart__product-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .cart__product-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .cart__product-price {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .cart__img {
+    display: none;
+  }
+  .cart__form {
+    grid-column: span 12;
   }
 }/*# sourceMappingURL=style.css.map */
