@@ -27,6 +27,10 @@
     .cart__form{
         grid-column: span 6;
     }
+
+    .filter-form {
+        left: -130px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 833px) {
