@@ -949,9 +949,15 @@ a {
     text-align: center;
   }
   .filter-form {
-    height: 910px;
-    width: 286.5px;
-    left: -10px;
+    max-height: 910px;
+    max-width: 287px;
+    left: -1px;
+  }
+  .filter-form__conteiner {
+    max-height: 910px;
+  }
+  .filter-form__btn {
+    align-self: center;
   }
   .catalog {
     display: flex;
