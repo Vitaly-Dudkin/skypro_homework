@@ -80,6 +80,9 @@ a {
   font-family: inherit;
 }
 
+.menu {
+  position: relative; /* Устанавливаем относительное позиционирование для родителя */
+}
 .menu__link {
   font-size: 16px;
   line-height: 20px;
@@ -360,6 +363,106 @@ a {
   background: #000000;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.modal {
+  width: 477px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 48px;
+  position: absolute;
+  top: calc(10% + 18px);
+  left: 450px;
+  box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+  right: 0;
+  display: none;
+  z-index: 100;
+}
+.modal-box {
+  display: flex;
+  border-bottom: 0.5px solid rgb(202, 205, 216);
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+.modal-box_bottom {
+  border-bottom: none;
+  padding-top: 24px;
+}
+.modal-box__input {
+  width: 71px;
+  height: 51px;
+  border-radius: 6px;
+  background: rgb(247, 246, 246);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 210%;
+  text-align: center;
+}
+.modal-item {
+  display: flex;
+  gap: 24px;
+}
+.modal-item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.modal-item__name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.modal-item__price {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.modal-item__actions {
+  padding-top: 46px;
+  display: flex;
+  gap: 24px;
+}
+.modal-item__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 210%;
+  text-decoration: underline;
+  color: #000000;
+}
+.modal-info {
+  display: flex;
+  gap: 32px;
+}
+.modal-info__price {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -3%;
+}
+.modal-info__btn {
+  width: 207px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 4, 4);
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.modal-info__btn_cart {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.menu:hover + .modal,
+.modal:hover {
+  display: block;
 }
 
 .top-catalog {
