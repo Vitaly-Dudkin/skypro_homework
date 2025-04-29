@@ -130,6 +130,15 @@
         }
     }
 
+    &__special-button {
+        transition: transform 0.3s ease; /* Плавный переход для трансформации */
+        
+        &:hover {
+            transform: translateX(-5px); /* Сдвиг влево */
+            animation: shake 0.5s; /* Запуск анимации при наведении */
+        }
+    }
+
     &__button{
         width: 200px;
         height: 37px;
@@ -215,18 +224,6 @@
         display: flex;
         gap: 7px;
     }
-}
-
-.cart__link-button {
-    transition: transform 0.3s ease; /* Плавный переход для трансформации */
-}
-
-.cart__link-button:hover {
-    transform: translateX(-5px); /* Сдвиг влево */
-}
-
-.cart__link-button:hover {
-    animation: shake 0.5s; /* Запуск анимации при наведении */
 }
 
 @keyframes shake {
