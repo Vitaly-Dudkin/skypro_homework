@@ -401,11 +401,7 @@ a {
     background-color: $colorText;
     padding: 40px 48px;
     position: absolute;
-    top: calc(10% + 18px);
-    left: 450px;
-    // top: calc(100% + 18px);
-    // top: calc(100% + 18px); /* Поднимаем модальное окно ниже элемента */
-    // left: -50px; /* Измените это значение, чтобы подвинуть окно влево */
+    top: calc(100% + 18px);
     box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
     right: 0;
     display: none;
@@ -507,8 +503,12 @@ a {
     }
 }
 
-.menu:hover+.modal,
-.modal:hover {
+// .menu__link_cart:hover+.modal,
+
+// .modal:hover {
+//     display: block;
+// }
+
+.modal.visible {
     display: block;
 }
-
