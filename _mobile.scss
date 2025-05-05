@@ -92,6 +92,20 @@
         font-size: 24px;
         line-height: 29px;
     }
+
+    .head-special {
+        width: 342px;
+        margin-top: 32px;
+    }
+
+    // .product-box {
+    //     margin-top: 32px;
+    // }
+    .product-box {
+        margin-top: 0; /* Отменяем верхний отступ */
+        margin-bottom: 0; /* Отменяем нижний отступ */
+    }
+
     .product {
 
         &__name {
@@ -108,8 +122,15 @@
                 line-height: 22px;
             }
         }
+
+        &__img {
+            height: 226px;
+        }
     }
 
+    .for-box {
+        padding-top: 32px;
+    }
 
     .for {
         grid-template-columns: repeat(4, 1fr);
@@ -128,6 +149,8 @@
     }
 
     .footer {
+
+        margin-top: 32px;
 
         &__content {
             display: flex;
