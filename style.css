@@ -198,6 +198,7 @@ a {
 }
 .product img {
   transition: transform 0.3s ease; /* Плавный переход */
+  width: 100%;
 }
 .product img:hover {
   transform: scale(1.1); /* Увеличение изображения на 10% */
@@ -547,7 +548,7 @@ a {
   align-items: start;
   flex-wrap: wrap;
   gap: 32px 65px;
-  width: 446px;
+  max-width: 542px;
   max-height: 548px;
 }
 .filter-form__fieldset {
@@ -1118,6 +1119,9 @@ a {
   .product-box {
     margin-top: 0; /* Отменяем верхний отступ */
     margin-bottom: 0; /* Отменяем нижний отступ */
+  }
+  .product {
+    width: 100%;
   }
   .product__name {
     font-size: 18px;

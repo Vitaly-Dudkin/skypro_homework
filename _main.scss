@@ -192,6 +192,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative; /* Для правильного позиционирования изображений */
+    
 
     &:hover {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Эффект при наведении */
@@ -212,6 +213,7 @@ a {
 
     & img{
         transition: transform 0.3s ease; /* Плавный переход */
+        width: 100%;
     }
     & img:hover{
         transform: scale(1.1); /* Увеличение изображения на 10% */
