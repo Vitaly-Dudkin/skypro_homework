@@ -1059,6 +1059,10 @@ a {
     display: flex;
     gap: 32px;
   }
+  .menu-catalog {
+    margin-bottom: 14px;
+    margin-top: 32px;
+  }
   .top__content {
     display: flex;
     flex-direction: column;
